@@ -1,0 +1,42 @@
+.list-appointments {
+  margin: 15px 10px;
+  border-collapse: collapse;
+
+  &__body {
+    background-color: white;
+  }
+
+  &__title-complaint {
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  &__title-date {
+    width: 40vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  &__title-doctor {
+    width: 80vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  &__title-patient {
+    width: 80vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  &__title-svg {
+    width: 20vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  &__titles {
+    background-color: #c4c4c4;
+  }
+}

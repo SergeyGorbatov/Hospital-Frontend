@@ -1,0 +1,13 @@
+.appointment {
+  background-color: white;
+
+  &__text {
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid black;
+  }
+
+  &__logo {
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,48 @@
+.edit-appointment {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 35px;
+
+    &__group-input {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+
+      .form__text {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        text-decoration: none;
+        color: black;
+      }
+
+      .form__input {
+        background: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        height: 45px;
+        margin: 7px 0 25px;
+
+        .option {
+          padding: 10px;
+        }
+      }
+
+      .form__textarea {
+        resize: none;
+        background: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        margin-top: 7px;
+      }
+    }
+  }
+}

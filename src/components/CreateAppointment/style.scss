@@ -1,0 +1,84 @@
+.create-appointment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c5e9ff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 117px;
+  margin-top: 11px;
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    height: 49px;
+    width: 130px;
+    margin-right: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  &__input {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    height: 45px;
+    margin-top: 5px;
+  }
+
+  &__text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: black;
+  }
+
+  &__group-input {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+}
+
+.option {
+  padding: 10px;
+}
+
+@media (max-width: 720px) {
+  .create-appointment {
+    height: 100%;
+
+    &__form {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__text {
+      margin-top: 5px;
+    }
+
+    &__button {
+      margin: 10px 0 10px 10px;
+    }
+
+    &__input {
+      width: 92vw;
+    }
+  }
+}
